@@ -71,6 +71,20 @@ MAE, MSE, dan RMSE digunakan untuk evaluasi model karena ketiganya bisa mengukur
   Akar dari MSE, jadi hasilnya sama satuannya dengan data.
   → Nilai kecil berarti prediksi model makin mendekati kenyataan.
 
+Hasil model:
+
+<img width="935" height="675" alt="image" src="https://github.com/user-attachments/assets/a13caac4-abd8-4682-a056-8a74bf31b231" />
+
+Distribusi terlihat:
+
+- Tidak terlalu miring ekstrem
+- Ada outlier tapi masih wajar
+- Distribusi menyerupai bell curve (bagus untuk prediksi)
+
+Grafik menunjukkan sebagian besar nilai Selling Price terkumpul di sekitar mean (sekitar 0–1 lakh), lalu menurun ke kanan dan kiri.
+Ini baik untuk regresi, karena model bekerja lebih stabil dengan distribusi yang tidak terlalu ekstrem.
+
+
 ## DEPLOYMENT
 
 Model prediksi harga jual mobil ini saya deploy menggunakan flask dan berbasis website. hanya saja aplikasi ini masih bisa dijalankan di localhost, belum secara publish.
