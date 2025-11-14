@@ -84,6 +84,14 @@ Distribusi terlihat:
 Grafik menunjukkan sebagian besar nilai Selling Price terkumpul di sekitar mean (sekitar 0–1 lakh), lalu menurun ke kanan dan kiri.
 Ini baik untuk regresi, karena model bekerja lebih stabil dengan distribusi yang tidak terlalu ekstrem.
 
+Grafik Scatter plot:
+
+<img width="924" height="616" alt="image" src="https://github.com/user-attachments/assets/a97bc264-9a8d-4139-bf71-437e4ec936a3" />
+
+**Grafik korelasi sudah bagus → pola naik jelas**
+
+Grafik menunjukkan korelasi positif yang kuat antara harga showroom dan harga jual mobil. semakin tinggi harga awal, semakin tinggi harga jualnya. Meskipun terdapat beberapa outlier, pola hubungan utamanya tetap jelas sehingga sangat mendukung penggunaan model regresi seperti Random Forest.
+
 
 ## DEPLOYMENT
 
