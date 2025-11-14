@@ -77,7 +77,7 @@ Model prediksi harga jual mobil ini saya deploy menggunakan flask dan berbasis w
 
 # STEP BY STEP MENJALANKAN APLIKASI
 
-1. clone repository --> git clone <link repository>
+1. clone repository --> git clone <link: [repository](https://github.com/Jalil98/Prediksi-Harga-Jual-Mobil.git)>
 2. buat environment(bisa di cmd atau di anaconda prompth), caranya:
    - buka cmd/anaconda prompth
      
